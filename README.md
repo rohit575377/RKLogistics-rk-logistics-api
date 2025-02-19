@@ -1,11 +1,7 @@
 # **RKLogistics - API & Web**
 
 ## **Overview**
-RKLogistics is a platform where **Shippers**, **Carriers**, and **Drivers** can register and interact for managing shipments. This repository contains the API and Web components for the project.
-
-### **Repositories:**
-- **API:** `RKLogistics-rk-logistics-api`
-- **Web:** `RKLogistics-rk-logistics-web`
+RKLogistics is a platform where **Shippers**, **Carriers**, and **Drivers** can register and interact for managing shipments. This repository contains the API for the project.
 
 ---
 
@@ -74,33 +70,13 @@ RKLogistics is a platform where **Shippers**, **Carriers**, and **Drivers** can 
 ## **API Endpoints**
 
 ### **User APIs:**
-- **POST** `/api/signup`: Create a new user with hashed password.
-- **POST** `/api/login`: User login with JWT authentication.
-- **GET** `/api/profile`: Check profile data of the logged-in user.
+- **POST** `/api/auth/signup`: Create a new user with hashed password.
+- **POST** `/api/auth/login`: User login with JWT authentication.
+- **GET** `/api/auth/profile`: Check profile data of the logged-in user.
 
 ### **Shipment APIs:**
-- **POST** `/api/shipment`: Create a new shipment (available for Shippers and Carriers).
-- **GET** `/api/shipment`: Get all shipments for the logged-in user (Shipper or Carrier).
-
----
-
-## **Frontend Setup**
-
-1. Clone the frontend repository:
-   ```bash
-   git clone https://github.com/yourusername/RKLogistics-rk-logistics-web.git
-   ```
-
-2. Install dependencies:
-   ```bash
-   cd RKLogistics-rk-logistics-web
-   npm install
-   ```
-
-3. Run the frontend:
-   ```bash
-   npm start
-   ```
+- **POST** `/api/shipments`: Create a new shipment (available for Shippers and Carriers).
+- **GET** `/api/shipments`: Get all shipments for the logged-in user (Shipper or Carrier).
 
 ---
 
@@ -132,7 +108,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## **Contact**
 For questions or issues, please reach out to the project maintainers:
-- **Your Name** (your-email@example.com)
+- **Rohit Kumar Mahor** (rohit.kumar.mahor.575377@gmail.com)
 
 ---
 
